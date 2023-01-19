@@ -1,22 +1,18 @@
-.jumbotron {
-    background-color: aqua;
-
-}
-
 h1 {
+    text-align: center;
     background-color: beige;
+    
+
 }
+    
+    
+
 
 hr.solid {
-    border-top: 3px solid #bbb;
+    border-top: 3px solid rgb(0, 0, 0);
     
   }
 
-  ul {
-    text-align: center;
-    
-  }
+  
 
-  .navbar-brand {
-    background-color: black;
-  }
+
