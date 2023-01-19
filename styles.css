@@ -1,2 +1,22 @@
+.jumbotron {
+    background-color: aqua;
 
+}
 
+h1 {
+    background-color: beige;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    
+  }
+
+  ul {
+    text-align: center;
+    
+  }
+
+  .navbar-brand {
+    background-color: black;
+  }
