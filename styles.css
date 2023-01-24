@@ -9,7 +9,9 @@ body {
 h1 {
     text-align: center;
     background-color: beige;
-
+    display: inline;
+    margin-right: 10px;
+    margin-left: 60px;
 }
 
 hr.solid {
