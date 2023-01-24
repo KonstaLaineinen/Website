@@ -1,23 +1,26 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'BIZ UDPGothic', sans-serif;
   color:rgb(17, 13, 13);
   font-size: 16px;
   margin: 16px auto;
-}
-
-h1 {
-    text-align: center;
-    background-color: rgb(245, 220, 220);
 }
 
 hr.solid {
     border-top: 1px solid rgb(0, 0, 0);
   }
 
-  .nav ul {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 auto;
+
+/* I can't make navigation bar in center and would like to have some help sorry
+*/
+
+ul.horizontal-list li {
+  display: inline-block;
+  min-width: 15rem;
+  text-align: center;
+  margin-right: 30px;
+  font-size: 26px;
+  
+  
 }
 
 
@@ -42,6 +45,31 @@ hr.solid {
     padding-left:20px;
     text-align: center;
     }
+
+    h1{
+      font-size: 48px;
+      font-weight: normal;
+    }
+
+    .banner{
+      background-color:rgb(249, 230, 224);
+      color:rgb(41, 35, 33);
+      font-size: 30px;
+      font-weight: normal;
+      width: 600px;
+      height: 300px;
+
+      
+    }
+
+    .model1{
+      width: 200px;
+      height: auto;
+      float: right;
+      margin: 0 0 12px 12px;
+  }
+  
+
 
     .container {
       width:80%;
