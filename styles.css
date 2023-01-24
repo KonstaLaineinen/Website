@@ -1,13 +1,15 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(17, 13, 13);
+  font-size: 16px;
+  margin-left: 20px auto;
+}
+
 h1 {
     text-align: center;
     background-color: beige;
-    
-    
 
 }
-    
-    
-
 
 hr.solid {
     border-top: 3px solid rgb(0, 0, 0);
