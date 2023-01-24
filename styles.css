@@ -8,50 +8,59 @@ body {
 hr.solid {
     border-top: 1px solid rgb(0, 0, 0);
   }
-
-
-/* I can't make navigation bar in center and would like to have some help sorry
-*/
+  
+ul.horizontal-list {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
 
 ul.horizontal-list li {
   display: inline-block;
   min-width: 15rem;
   text-align: center;
   margin-right: 30px;
-  font-size: 26px;
-  
-  
+  font-size: 20px;
+}
+
+a {
+  color:rgb(17, 13, 13);
+}
+
+a:hover {
+  color:rgb(17, 13, 13);
+}
+
+a:active {
+  color:rgb(17, 13, 13);
 }
 
 
-  button{
-    border: none; 
-    color: rgb(243, 225, 217); 
-    padding: 14px 28px;
-    cursor: pointer; 
-    background-color: #f3d1c3;
-  }
+#Sale {
+  color:rgb(225, 63, 52);
+} 
 
-  button:hover{
-    background-color: #eccf9f;
-    border-radius: 5px;
-    
-  }
+#Sale:hover {
+  color:rgb(133, 26, 26);
+}
 
-  .logo {
-    padding-top: 16px;
-    padding-right:1px;
+#Sale:active {
+  color:rgb(133, 26, 26);
+}
+
+.logo {
+    padding-top: 50px;
     padding-bottom:16px;
     padding-left:20px;
     text-align: center;
     }
 
-    h1{
+h1{
       font-size: 48px;
       font-weight: normal;
     }
 
-    .banner{
+.banner{
       background-color:rgb(249, 230, 224);
       color:rgb(41, 35, 33);
       font-size: 30px;
@@ -62,7 +71,7 @@ ul.horizontal-list li {
       
     }
 
-    .model1{
+.model1{
       width: 200px;
       height: auto;
       float: right;
@@ -71,7 +80,7 @@ ul.horizontal-list li {
   
 
 
-    .container {
+.container {
       width:80%;
       max-width:860px;
   }
