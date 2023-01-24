@@ -9,15 +9,20 @@ body {
 h1 {
     text-align: center;
     background-color: beige;
-    display: inline;
-    margin-right: 10px;
-    margin-left: 60px;
 }
 
 hr.solid {
     border-top: 3px solid rgb(0, 0, 0);
     
   }
+
+  nav li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 60px;
+    padding-left:50px;
+}
+
 
   button{
     border: none; 
