@@ -27,4 +27,45 @@ hr.solid {
     border-radius: 5px;
     
   }
+.card{
+    margin-left: 250px;
+    margin-top: 48px;
+    margin-right: 250px;
+    background-color: #fceee3;
+    height: 307px;
+    width: 960px;
+    
 
+  }
+
+  .card-img-top{
+    float: right;
+    margin-right: 20px;
+    width: 270px;
+    height: 307px;
+   
+  }
+
+  .card-title{
+   
+    text-align: left;
+    font-size: 48px;
+    height: 105px;
+    width: 598px;
+    padding-top: 40px;
+    
+     
+  }
+  .card-text{
+    height: 30px;
+    width: 257px;
+    font-size: 30px;
+    padding-top: 90px;
+    
+  }
+ 
+ .card-body{
+  font-family: 'BIZ UDPGothic', sans-serif;
+  padding-left: 25px;
+    
+ }
