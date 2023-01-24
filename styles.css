@@ -60,7 +60,7 @@ h1{
       font-weight: normal;
     }
 
-.banner{
+.banner {
       background-color:rgb(249, 230, 224);
       color:rgb(41, 35, 33);
       font-size: 30px;
@@ -71,7 +71,7 @@ h1{
       
     }
 
-.model1{
+.model1 {
       width: 200px;
       height: auto;
       float: right;
