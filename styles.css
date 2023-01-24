@@ -1,35 +1,58 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
-
-hr {
-  
-  border: solid;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-ul.horizontal-list {
-  list-style: none;
-  display: table;
-  margin: 0 auto;
-  
-}
-
-ul.horizontal-list li {
-  display: inline-block;
-  min-width: 15rem;
+footer {
+  background-color: aqua;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-left: 16px;
   text-align: center;
-  margin-right: 30px;
-  font-size: 26px;
   
+}
+
+.copyright {
+  background-color: beige;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+
+
+.makeyear {
+font-size: 16px;
+padding-left: 16px;
+
+}
+
+
+.website {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 4px;
+  margin-top: -1px;
+  float: right;
+  position: relative;
+  bottom: 15px;
+  font-size: 36px;
+  background-color: darkslateblue;
   
   
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
