@@ -61,14 +61,12 @@ h1{
     }
 
     .card{
-      margin-left: 250px;
+      margin-left: 100px;
       margin-top: 48px;
       margin-right: 250px;
       background-color: #fceee3;
       height: 307px;
-      width: 960px;
-      
-  
+      width: 900px;
     }
   
     .card-img-top{
@@ -98,16 +96,15 @@ h1{
     }
    
    .card-body{
-    font-family: 'BIZ UDPGothic', sans-serif;
     padding-left: 25px;
       
    }
   
 
-
+/*
 .container {
       width:80%;
       max-width:860px;
   }
-
+*/
 
