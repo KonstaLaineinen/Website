@@ -124,7 +124,7 @@ h1{
 .piece{
   font-size:30px;
   padding-top: 40px;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .clothing{
@@ -139,6 +139,14 @@ h1{
     gap: 10px;
     margin: 0 auto;
     width: 750px;
+}
+
+.clothes-img{
+  float: right;
+  margin-right: 0 auto;
+  width: 165px;
+  height: auto;
+ 
 }
 
 footer {
