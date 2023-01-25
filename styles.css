@@ -65,10 +65,13 @@ h1{
       margin-left: 120px;
       margin-top: 48px;
       margin-right: 250px;
+      margin: 0 auto;
       background-color: #fceee3;
       height: 307px;
       width: 900px;
       color:rgb(74, 49, 45);
+      font-weight: normal;
+      margin-bottom: 40px;
     }
   
     .card-img-top{
@@ -110,6 +113,33 @@ h1{
       max-width:860px;
   }
 */
+
+.popular{
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.piece{
+  font-size:30px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.clothing{
+  background-color: #fceee3;
+      height: 300px;
+      width: 300px;
+}
+
+.clothes{
+  display: grid;
+    grid-template-columns: 400px 300px 300px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 750px;
+}
 
 footer {
   background-color: aqua;
