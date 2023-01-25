@@ -7,6 +7,7 @@ body {
 
 hr.solid {
     border-top: 1px solid rgb(0, 0, 0);
+    width: 900px;
   }
   
 ul.horizontal-list {
@@ -61,12 +62,13 @@ h1{
     }
 
     .card{
-      margin-left: 100px;
+      margin-left: 120px;
       margin-top: 48px;
       margin-right: 250px;
       background-color: #fceee3;
       height: 307px;
       width: 900px;
+      color:rgb(74, 49, 45);
     }
   
     .card-img-top{
@@ -92,6 +94,7 @@ h1{
       width: 257px;
       font-size: 30px;
       padding-top: 90px;
+      color:rgb(189, 72, 59);
       
     }
    
@@ -107,4 +110,43 @@ h1{
       max-width:860px;
   }
 */
+
+footer {
+  background-color: aqua;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-left: 16px;
+  text-align: center;
+  
+}
+
+.copyright {
+  background-color: red;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+
+
+.makeyear {
+font-size: 16px;
+padding-left: 16px;
+
+}
+
+
+.website {
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 4px;
+  margin-top: -1px;
+  float: right;
+  position: relative;
+  bottom: 15px;
+  font-size: 36px;
+  background-color: darkslateblue;
+  
+  
+  
+}
 
