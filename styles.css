@@ -76,9 +76,9 @@ h1{
   
     .card-img-top{
       float: right;
-      margin-right: 20px;
-      width: 270px;
-      height: 307px;
+      margin-right: 0 auto;
+      width: 314px;
+      height: auto;
      
     }
   
