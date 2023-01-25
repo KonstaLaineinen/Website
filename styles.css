@@ -71,7 +71,7 @@ h1{
       width: 900px;
       color:rgb(74, 49, 45);
       font-weight: normal;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
   
     .card-img-top{
@@ -118,7 +118,7 @@ h1{
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .piece{
@@ -142,7 +142,7 @@ h1{
   margin: 0 auto;
   width: 650px;
   height: auto;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .clothing:hover{
@@ -154,10 +154,6 @@ h1{
     transform: translateY(2px);
     transition-duration: 0.01s;
 }
-
-
-
-
 
 .clothes-img{
   float: right;
