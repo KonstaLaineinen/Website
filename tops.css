@@ -103,15 +103,38 @@ body {
     }
   */
   
-  .clothing-name{
-    display:grid;
-    grid-template-columns: 370px 300px 300px;
-    font-size:30px;
-    padding-left: 330px;
-    background-color: #f0cbac;
-    width: 100px;
-    height: 200px;
+  .clothes-names{
+    padding-left: 70px;
+    display: grid;
+    grid-template-columns: 250px 300px 300px;
+    gap: 75px;
+    margin: 0 auto;
+    width: 760px;
+    height: auto;
+    padding-bottom: 60px;
+
   }
+
+  .clothing-name{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    background-color: #fceee3;
+    height: 60px;
+    width: 250px;
+    transition-duration: 0.4s;
+    font-size:30px;
+  }
+
+  .clothing-name:hover{
+    background-color:#f0cbac;
+}
+
+  .clothing-name:active{
+    background-color:#f0cbac;
+    transform: translateY(2px);
+    transition-duration: 0.01s;
+}
   
   .clothing{
     background-color: #fceee3;
