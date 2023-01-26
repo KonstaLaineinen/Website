@@ -165,9 +165,10 @@ body {
   }
   
   .clothes-img{
-    float: right;
-    margin-right: 0 auto;
-    width: 166px;
+    float: center;
+    margin: 0 auto;
+    margin-left: 11px;
+    width: 239px;
     height: auto;
   }
   
