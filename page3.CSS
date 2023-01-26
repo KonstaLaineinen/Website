@@ -1,0 +1,208 @@
+body {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    color:rgb(17, 13, 13);
+    font-size: 16px;
+    margin: 16px auto;
+  }
+  
+  hr.solid {
+      border-top: 1px solid rgb(0, 0, 0);
+      width: 900px;
+    }
+    
+  ul.horizontal-list {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+  }
+  
+  ul.horizontal-list li {
+    display: inline-block;
+    min-width: 15rem;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  
+  a {
+    color:rgb(17, 13, 13);
+  }
+  
+  a:hover {
+    color:rgb(17, 13, 13);
+  }
+  
+  a:active {
+    color:rgb(17, 13, 13);
+  }
+  
+  
+  #Sale {
+    color:rgb(225, 63, 52);
+  } 
+  
+  #Sale:hover {
+    color:rgb(133, 26, 26);
+  }
+  
+  #Sale:active {
+    color:rgb(133, 26, 26);
+  }
+  
+  .logo {
+      padding-top: 50px;
+      padding-bottom:16px;
+      padding-left:20px;
+      text-align: center;
+      }
+  
+  h1{
+        font-size: 48px;
+        font-weight: normal;
+      }
+  
+      .card{
+        margin-left: 120px;
+        margin-top: 20px;
+        margin-right: 250px;
+        background-color: #fceee3;
+        height: 180px;
+        width: 900px;
+        color:rgb(74, 49, 45);
+        font-weight: normal;
+        margin-bottom: 30px;
+      }
+    
+      .card-title{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 48px;
+        height: 105px;
+        width: 598px;
+        padding-top: 30px;
+        
+         
+      }
+      .card-text{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+        color:rgb(189, 72, 59);
+        
+      }
+     
+     .card-body{
+      padding-left: 25px;
+        
+     }
+    
+  
+  /*
+  .container {
+        width:80%;
+        max-width:860px;
+    }
+  */
+  
+  .popular{
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .piece{
+    font-size:30px;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+  
+  .clothing{
+    background-color: #fceee3;
+    height: 250px;
+    width: 250px;
+    transition-duration: 0.4s;
+
+    
+  }
+
+  
+  
+  .clothes{
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    gap: 5%;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    padding-bottom: 60px;
+    padding-left: 4%;
+  }
+  
+  .clothing:hover{
+      background-color:#f0cbac;
+      border-radius:10px;
+  }
+  
+  .clothign:active{
+      background-color:#f0cbac;
+      transform: translateY(2px);
+      transition-duration: 0.01s;
+  }
+  
+  .clothes-img{
+    float: right;
+    margin-right: 0 auto;
+    width: 166px;
+    height: auto;
+  }
+  
+  footer {
+    background-color: aqua;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding-left: 16px;
+    text-align: center;
+    
+  }
+  
+  .copyright {
+    background-color: red;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+  }
+  
+  
+  .makeyear {
+  font-size: 16px;
+  padding-left: 16px;
+  
+  }
+  
+  
+  .website {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 4px;
+    margin-top: -1px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    font-size: 36px;
+    background-color: darkslateblue;
+    
+    
+    
+  }
+  .table{
+    width: 289px;
+    height: 62px;
+    background-color: bisque;
+  }
+  .table:hover{
+    text-decoration: rgb(31, 22, 193) underline;
+    margin-top: 2px;
+
+  }
