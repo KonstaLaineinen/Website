@@ -1,71 +1,199 @@
+body {
+  font-family: 'BIZ UDPGothic', sans-serif;
+  color:rgb(17, 13, 13);
+  font-size: 16px;
+  margin: 16px auto;
+}
 
-h1 {
+hr.solid {
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 900px;
+  }
+  
+ul.horizontal-list {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+
+ul.horizontal-list li {
+  display: inline-block;
+  min-width: 5rem;
+  text-align: center;
+  margin-right: 66px;
+  font-size: 20px;
+  padding-top: 16px;
+  padding-bottom: 46px;
+}
+
+a {
+  color:rgb(17, 13, 13);
+}
+
+a:hover {
+  color:rgb(17, 13, 13);
+}
+
+a:active {
+  color:rgb(17, 13, 13);
+}
+
+
+#Sale {
+  color:rgb(225, 63, 52);
+} 
+
+#Sale:hover {
+  color:rgb(133, 26, 26);
+}
+
+#Sale:active {
+  color:rgb(133, 26, 26);
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom:16px;
+    padding-left:20px;
     text-align: center;
-    background-color: beige;
+    }
+
     
+    .cardone {
+      margin-left: 120px;
+      margin-top: 48px;
+      margin-right: 250px;
+      margin: 0 auto;
+      background-color: #fceee3;
+      height: 305px;
+      width: 600px;
+      color:rgb(74, 49, 45);
+      font-weight: normal;
+      margin-bottom: 60px;
+    }
+
+   
+
     
+  
+    .card-img-top{
+      float: right;
+      margin-right: auto;
+      width: 250px;
+      height: auto;
+     
+    }
+
+    
+  
+    .card-title{
+     
+      text-align: left;
+      font-size: 43px;
+      margin-top: 16px;
+      
+       
+    }
+
+  
+
+    
+
+
+    .card-text{
+      padding-top: 50px;
+      color:rgb(189, 72, 59);
+      
+    }
+   
+   
+
+  
+  
+
+/*
+.container {
+      width:80%;
+      max-width:860px;
+  }
+*/
+
+.popular{
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.popular-clothes-text{
+  font-size:30px;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.clothing{
+  background-color: #fceee3;
+  height: 250px;
+  width: 250px;
+  transition-duration: 0.4s;
+}
+
+.clothes{
+  display: grid;
+  grid-template-columns: 400px 300px 300px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 650px;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.clothing:hover{
+    background-color:#f0cbac;
+}
+
+.clothign:active{
+    background-color:#f0cbac;
+    transform: translateY(2px);
+    transition-duration: 0.01s;
+}
+
+.clothes-img{
+  float: right;
+  margin-right: 0 auto;
+  width: 166px;
+  height: auto;
+}
+
+h2 {
+  font-size: 36px;
+  
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .card-title {
+    display: none;
+  }
+
+  .card-text {
+    display: none;
+  }
+
+  .cardone {
+    display: none;
+  }
 
 }
-    
-hr.solid {
-    border-top: 3px solid rgb(0, 0, 0);
-    
-  }
 
-  button{
-    border: none; 
-    color: white; 
-    padding: 14px 28px;
-    cursor: pointer; 
-    background-color: #e9eaed;
+@media only screen and (max-width: 768px) {
+  .container-fluid
+  {
+    text-align: center;
   }
-
-  button:hover{
-    background-color: #fceee3;
-    border-radius: 5px;
-    
-  }
-.card{
-    margin-left: 250px;
-    margin-top: 48px;
-    margin-right: 250px;
-    background-color: #fceee3;
-    height: 307px;
-    width: 960px; 
-
-  }
-
-  .card-img-top{
-    float: right;
-    margin-right: 20px;
-    width: 270px;
-    height: 307px;
-   
-  }
-
-  .card-title{
-   
-    text-align: left;
-    font-size: 48px;
-    height: 105px;
-    width: 598px;
-    padding-top: 40px;
-    
-     
-  }
-  .card-text{
-    height: 30px;
-    width: 257px;
-    font-size: 30px;
-    padding-top: 90px;
-    
-  }
- 
- .card-body{
-  font-family: 'BIZ UDPGothic', sans-serif;
-  padding-left: 25px;
-    
- }
+}
 
   .product-details{
     overflow:hidden;
@@ -127,6 +255,7 @@ hr.solid {
   
   footer {
     background-color: #fceee3;
+    background-position-x: 10%;
     width: 900px;
     text-align: center ;
     align-items: center;
@@ -160,8 +289,8 @@ hr.solid {
       color:#eac698;
   } 
   .footer-bottom {
-    background: #fceee3;
-    padding-top: 10px;
+    background: #dab7a4;
+    padding-top: 0px;
   }
   
   .footer-bottom p {
@@ -171,5 +300,7 @@ hr.solid {
     margin-left: 15px;
   }
  
-
+  .footer-bottom img {
+   margin-left: 20vw; 
+  }
 
