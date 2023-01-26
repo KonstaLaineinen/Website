@@ -70,7 +70,7 @@ body {
         width: 900px;
         color:rgb(74, 49, 45);
         font-weight: normal;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
       }
     
       .card-title{
@@ -103,18 +103,14 @@ body {
     }
   */
   
-  .popular{
-    font-size: 30px;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  
-  .popular-clothes-text{
+  .clothing-name{
+    display:grid;
+    grid-template-columns: 370px 300px 300px;
     font-size:30px;
-    position: absolute;
-    padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 330px;
+    background-color: #f0cbac;
+    width: 100px;
+    height: 200px;
   }
   
   .clothing{
@@ -125,9 +121,10 @@ body {
   }
   
   .clothes{
+    padding-left: 70px;
     display: grid;
-    grid-template-columns: 260px 260px 260px;
-    gap: 10px;
+    grid-template-columns: 250px 300px 300px;
+    gap: 100px;
     margin: 0 auto;
     width: 760px;
     height: auto;
