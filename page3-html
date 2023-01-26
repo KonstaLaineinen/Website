@@ -25,82 +25,35 @@
     <li><a id="Tops" href="#">Tops</a></li>
     <li><a id="Sale" href="#">Sale</a></li>
   </ul>
-
   <div class="col">
     <div class="card">
       <div class="card-body">
-        <h2 class="card-title">Sale</h2>
-        <p class="card-text">Limited time sale until **/**/****</p>
+        <h2 class="card-title">sales</h2>
+        <p class="card-text">Limited time sale until 24/03/2023</p>
       </div>
     </div>
-    <div class="popular">
-      
-    </div>
-
     <div class="clothes">
     <div class="clothing">
-      <a href="#"><img src="./gallery/model2.2.png" class="clothes-img" alt="hoodie"></a>
-      
-        <p class="piece"></p>
-
-        <div class="hoodie">
-            <div class="col-md-6 " style="margin: 16px; padding-left: 60px; font-size: 20px; ">
-            <table class="table">
-                <tr>
-                    <td><p>Hoodie</p> </td>
-                </tr>
-            </table>
-              </div>
-            
-              
-
-
-        </div>
+      <a href="#"><img src="./gallery/model2.2.png" class="clothes-img" alt="Fluffy bomber jacket"></a>
     </div>
+    <div class="clothing">
+      <a href="#"><img src="./gallery/model4.3.png" class="clothes-img" alt="Sweater"></a>
+    </div>
+    </div>
+    </div>
+
+<div class="clothes-names">
+  <p class="clothing-name">Fluffy bomber jacket</p>
+  <p class="clothing-name">Sweater</p>
+
+</div>
     
 
-    <div class="clothing">
-        <a href="#"><img src="./gallery/model4.3.png" class="clothes-img" alt="jacket"></a>
-        
-            <p class="piece"></p>
-
-            <div class="hoodie">
-                <div class="col-md-6 " style="margin: 16px; padding-left: 90px; font-size: 20px;">
-                    <table class="table">
-                        <tr>
-                            <td><p>Sweater</p></td>
-                        </tr>
-                    </table>
-                    
-                  </div>
-                
-                  
-
-
-            </div>
-    </div>
-    </div>
-
-    <div class="container">
-
-        
-
-
-
-        </section>
-
-
-
-
-    </div>
+  </div>
 
   </div>
 
-
-
-  </div>
-
-    </div>
+</div>
 
 </header>
 
