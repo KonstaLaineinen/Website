@@ -18,10 +18,12 @@ ul.horizontal-list {
 
 ul.horizontal-list li {
   display: inline-block;
-  min-width: 15rem;
+  min-width: 5rem;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 66px;
   font-size: 20px;
+  padding-top: 16px;
+  padding-bottom: 46px;
 }
 
 a {
@@ -56,45 +58,57 @@ a:active {
     text-align: center;
     }
 
-h1{
-      font-size: 48px;
-      font-weight: normal;
-    }
-
-    .card{
+    
+    .cardone {
       margin-left: 120px;
-      margin-top: 20px;
+      margin-top: 48px;
       margin-right: 250px;
+      margin: 0 auto;
       background-color: #fceee3;
-      height: 180px;
-      width: 900px;
+      height: 305px;
+      width: 600px;
       color:rgb(74, 49, 45);
       font-weight: normal;
-      margin-bottom: 30px;
+      margin-bottom: 60px;
     }
+
+   
+
+    
+  
+    .card-img-top{
+      float: right;
+      margin-right: auto;
+      width: 250px;
+      height: auto;
+     
+    }
+
+    
   
     .card-title{
-      text-align: center;
-      margin: 0 auto;
-      font-size: 48px;
-      height: 105px;
-      width: 598px;
-      padding-top: 30px;
+     
+      text-align: left;
+      font-size: 43px;
+      margin-top: 16px;
       
        
     }
+
+  
+
+    
+
+
     .card-text{
-      text-align: center;
-      margin: 0 auto;
-      font-size: 30px;
+      padding-top: 50px;
       color:rgb(189, 72, 59);
       
     }
    
-   .card-body{
-    padding-left: 25px;
-      
-   }
+   
+
+  
   
 
 /*
@@ -108,10 +122,10 @@ h1{
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
-.piece{
+.popular-clothes-text{
   font-size:30px;
   position: absolute;
   padding-top: 25px;
@@ -152,42 +166,32 @@ h1{
   height: auto;
 }
 
-footer {
-  background-color: aqua;
-  padding-top: 46px;
-  padding-bottom: 46px;
-  padding-left: 16px;
-  text-align: center;
-  
-}
-
-.copyright {
-  background-color: red;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  
-}
-
-
-.makeyear {
-font-size: 16px;
-padding-left: 16px;
-
-}
-
-
-.website {
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-top: 4px;
-  margin-top: -1px;
-  float: right;
-  position: relative;
-  bottom: 15px;
+h2 {
   font-size: 36px;
-  background-color: darkslateblue;
   
-  
-  
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .card-title {
+    display: none;
+  }
+
+  .card-text {
+    display: none;
+  }
+
+  .cardone {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid
+  {
+    text-align: center;
+  }
 }
 
