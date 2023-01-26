@@ -7,9 +7,6 @@ h1 {
 
 }
     
-    
-
-
 hr.solid {
     border-top: 3px solid rgb(0, 0, 0);
     
@@ -34,8 +31,7 @@ hr.solid {
     margin-right: 250px;
     background-color: #fceee3;
     height: 307px;
-    width: 960px;
-    
+    width: 960px; 
 
   }
 
@@ -85,9 +81,7 @@ hr.solid {
     overflow: hidden;
     margin-top: 10px;
   }
-  
-  
-  
+   
   .view-product {
     position: relative;
   }
@@ -98,8 +92,6 @@ hr.solid {
     width: 100%;
   }
   
-
-  
   #similar-product .carousel-inner .item img {
     display: inline-block;
     margin-left: 15px;
@@ -107,12 +99,7 @@ hr.solid {
     width: auto;
 
   }
-  
- 
-
-  
-
-  
+   
   .product-information-a {
     background-color: #fceee3;;
     border: 1px solid #F7F7F0;
@@ -123,15 +110,6 @@ hr.solid {
     position: relative;
     height: 200px;
   }
-  
-
-  
-
-
-
-
-
-  
   
   .cart {
     background: #fceee3;
@@ -152,19 +130,11 @@ hr.solid {
     width: 900px;
     text-align: center ;
     align-items: center;
-  
-
-
   }
   
   .footer-widget .container {
     border-top: 1px solid #FFFFFF;
-    padding-top: 15px;  
-    
-    
-   
-    
-    
+    padding-top: 15px;   
   }
   
   .single-widget h2 {
