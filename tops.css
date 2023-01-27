@@ -128,12 +128,15 @@ body {
 
   .clothing-name:hover{
     background-color:#f0cbac;
+    border-radius:10px;
+    text-decoration: underline;
 }
 
   .clothing-name:active{
     background-color:#f0cbac;
     transform: translateY(2px);
     transition-duration: 0.01s;
+    text-decoration: underline;
 }
   
   .clothing{

@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: 'BIZ UDPGothic', sans-serif;
     color:rgb(17, 13, 13);
     font-size: 16px;
@@ -70,13 +70,13 @@ body {
         width: 900px;
         color:rgb(74, 49, 45);
         font-weight: normal;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
       }
     
       .card-title{
         text-align: center;
         margin: 0 auto;
-        font-size: 48px;
+        font-size: 50px;
         height: 105px;
         width: 598px;
         padding-top: 30px;
@@ -90,10 +90,11 @@ body {
         color:rgb(189, 72, 59);
         
       }
-     
+     .card-text:hover{
+      text-decoration: underline;
+     }
      .card-body{
-      padding-left: 25px;
-        
+      margin: 0 auto;
      }
     
   
@@ -104,45 +105,56 @@ body {
     }
   */
   
-  .popular{
-    font-size: 30px;
+  .clothes-names{
     margin: 0 auto;
+    width: 760px;
+    height: auto;
+    padding-bottom: 60px;
+
+  }
+
+  .clothing-name{
     text-align: center;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    background-color:#fceee3;
+    height: 60px;
+    width: 250px;
+    transition-duration: 0.4s;
+    font-size:25px;
   }
-  
-  .piece{
-    font-size:30px;
-    position: absolute;
-    padding-top: 25px;
-    padding-left: 20px;
-  }
+
+  .clothing-name:hover{
+    background-color:#f0cbac;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+  .clothing-name:active{
+    background-color:#f0cbac;
+    transform: translateY(2px);
+    transition-duration: 0.01s;
+    text-decoration: underline;
+}
   
   .clothing{
     background-color: #fceee3;
     height: 250px;
     width: 250px;
     transition-duration: 0.4s;
-
-    
   }
-
-  
   
   .clothes{
-    display: grid;
-    grid-template-columns: 260px 260px 260px;
-    gap: 5%;
+    text-align: center;
     margin: 0 auto;
-    width: 600px;
-    height: auto;
-    padding-bottom: 60px;
-    padding-left: 4%;
+    padding-left: 445px;
+    padding-bottom: 30px;
+
   }
   
   .clothing:hover{
       background-color:#f0cbac;
-      border-radius:10px;
+      border-radius: 10px;
+
   }
   
   .clothign:active{
@@ -154,9 +166,10 @@ body {
   .clothes-img{
     float: right;
     margin-right: 0 auto;
-    width: 166px;
+    width: 239px;
     height: auto;
   }
+
   
   footer {
     background-color: aqua;
@@ -171,7 +184,6 @@ body {
     background-color: red;
     padding-top: 16px;
     padding-bottom: 16px;
-    
   }
   
   
@@ -193,13 +205,12 @@ body {
     font-size: 36px;
     background-color: darkslateblue;
     
-    
-    
   }
   .table{
-    width: 289px;
+    width: 109px;
     height: 62px;
     background-color: bisque;
+    border-color: rgb(5, 226, 108);
   }
   .table:hover{
     text-decoration: rgb(31, 22, 193) underline;
