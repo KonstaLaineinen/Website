@@ -193,7 +193,7 @@ body {
   footer {
     background-color: #fceee3;
     background-position-x: 100px;
-    
+
     text-align: center ;
     align-items: center;
   }
@@ -209,7 +209,6 @@ body {
     font-weight: 500;
     margin-bottom: 15px;
     text-transform: uppercase;
-    
   }
   
   .single-widget ul li a{
