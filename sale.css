@@ -65,7 +65,7 @@ body {
         margin-left: 120px;
         margin-top: 20px;
         margin-right: 250px;
-        background-color: #fceee3;
+        background-color: #ffe8e0;
         height: 180px;
         width: 900px;
         color:rgb(74, 49, 45);
@@ -90,9 +90,7 @@ body {
         color:rgb(189, 72, 59);
         
       }
-     .card-text:hover{
-      text-decoration: underline;
-     }
+
      .card-body{
       margin: 0 auto;
      }
@@ -137,7 +135,7 @@ body {
 }
   
   .clothing{
-    background-color: #fceee3;
+    background-color: #feede7;
     height: 250px;
     width: 250px;
     transition-duration: 0.4s;
@@ -172,48 +170,57 @@ body {
 
   
   footer {
-    background-color: aqua;
-    padding-top: 46px;
-    padding-bottom: 46px;
-    padding-left: 16px;
-    text-align: center;
+    background-color: #ffe8e0;
+    background-position-x: 100px;
+    text-align: center ;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .footer-widget .container {
+    padding-top: 10px;   
+  }
+  
+  .single-widget h2 {
+    color: #3d3a38;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: uppercase;
     
   }
   
-  .copyright {
-    background-color: red;
-    padding-top: 16px;
-    padding-bottom: 16px;
+  .single-widget ul li a{
+      color: #3d3a38;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 0px 0;
+      padding-bottom: 10px;
   }
   
-  
-  .makeyear {
-  font-size: 16px;
-  padding-left: 16px;
-  
+  .single-widget ul li a:hover{
+      background:none;
+      color:#e9a086;
+  } 
+  .footer-bottom {
+    background: #f8d3c5;
+    padding-top: 0px;
   }
   
+  .footer-bottom p {
+    color: #3d3a38;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: #f8d3c5;
+    margin-left: 140px;
+  }
   
-  .website {
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 4px;
-    margin-top: -1px;
-    float: right;
-    position: relative;
-    bottom: 15px;
-    font-size: 36px;
-    background-color: darkslateblue;
-    
-  }
-  .table{
-    width: 109px;
-    height: 62px;
-    background-color: bisque;
-    border-color: rgb(5, 226, 108);
-  }
-  .table:hover{
-    text-decoration: rgb(31, 22, 193) underline;
-    margin-top: 2px;
-
+  .footer-bottom img {
+   margin-left: 130px;
+   float: right;
+   height: 60px;
+   width: auto; 
+   margin-right: 120px;
   }
