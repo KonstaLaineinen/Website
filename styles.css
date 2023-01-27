@@ -149,55 +149,73 @@ h1{
     background-color:#f0cbac;
 }
 
-.clothign:active{
+.clothing:active{
     background-color:#f0cbac;
     transform: translateY(2px);
-    transition-duration: 0.01s;
+    transition-duration: 0.06s;
 }
 
 .clothes-img{
   float: right;
   margin-right: 0 auto;
-  width: 166px;
+  width: 246px;
   height: auto;
 }
 
 footer {
-  background-color: aqua;
-  padding-top: 46px;
-  padding-bottom: 46px;
-  padding-left: 16px;
+  background-color: #fceee3;
+  background-position-x: 100px;
+  margin-left: 120px;
+  margin-top: 48px;
+  margin-right: 250px;
+  margin: 0 auto;
+  height: 160px;
+  width: 900px;
+  text-align: center ;
+  align-items: center;
+}
+
+.footer-widget .container {
+  padding-top: 10px;   
+}
+
+.single-widget h2 {
   text-align: center;
+  color: #666663;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-transform: uppercase;
   
 }
 
-.copyright {
-  background-color: red;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  
+.single-widget ul li a{
+    color: #8C8C88;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 0;
 }
 
-
-.makeyear {
-font-size: 16px;
-padding-left: 16px;
-
+.single-widget ul li a:hover{
+    background:none;
+    color:#e9a086;
+} 
+.footer-bottom {
+  background: #dab7a4;
+  margin: 0 auto;
 }
 
-
-.website {
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-top: 4px;
-  margin-top: -1px;
-  float: right;
-  position: relative;
-  bottom: 15px;
-  font-size: 36px;
-  background-color: darkslateblue;
-  
-  
-  
+.footer-bottom p {
+  color: #666663;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 10px;
 }
 
+.footer-bottom img {
+ margin-left: 63px;
+ height: 60px;
+ width: auto; 
+}
