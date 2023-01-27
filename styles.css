@@ -168,7 +168,6 @@ footer {
   text-align: center ;
   align-items: center;
   margin: 0 auto;
-  width: 900px;
 }
 
 .footer-widget .container {
@@ -180,7 +179,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   
 }
@@ -188,9 +187,10 @@ footer {
 .single-widget ul li a{
     color: #3d3a38;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     padding: 0px 0;
+    padding-bottom: 10px;
 }
 
 .single-widget ul li a:hover{
@@ -206,11 +206,14 @@ footer {
   color: #3d3a38;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-left: 10px;
+  background: #f8d3c5;
+  margin-left: 140px;
 }
 
 .footer-bottom img {
- margin-left: 63vw;
+ margin-left: 130px;
+ float: right;
  height: 60px;
  width: auto; 
+ margin-right: 120px;
 }
