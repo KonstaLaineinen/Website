@@ -159,6 +159,7 @@ body {
   
   .clothing:hover{
       background-color:#f0cbac;
+      border-radius:10px;
   }
   
   .clothign:active{
